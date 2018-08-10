@@ -1,0 +1,23 @@
+[
+  {
+    "description":"这是一个带header信息的post请求",
+    "request":{
+      "uri":"/post/with/headers",
+      "method":"post",
+      "headers":{
+        "Content-type":"application/json"
+      },
+      "json":{
+        "name":"wanglasi",
+        "age":"16"
+      }
+    },
+    "response":{
+      "status":200,
+      "json":{
+        "returnCode":"00000",
+        "returnifn":"success,成功"
+      }
+    }
+  }
+]
